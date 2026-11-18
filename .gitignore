@@ -1,0 +1,16 @@
+# Virtual Environment & Python Cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local Databases, Logs & Uploaded Test Media
+*.db
+*.sqlite3
+uploads/
+runs/
+dataset_freedom_yolo/
+
+# Temporary Tunnel Binaries
+ngrok.exe
+cloudflared.exe
+*.zip
